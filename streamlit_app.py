@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LinearRegression
 
 url = 'https://raw.githubusercontent.com/OliverHu726/ML_in_FRE_HW6_app/main/regression_dataset.txt'
 df = pd.read_csv(url, delimiter='\s+', header=None, names=['X', 'Y'])
