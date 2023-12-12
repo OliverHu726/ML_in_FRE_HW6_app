@@ -20,8 +20,8 @@ X_train_2d = X_train.values.reshape(-1, 1)
 X_test_2d = X_test.values.reshape(-1, 1)
 
 # Fit model
-from sklearn import linear_model
-reg = linear_model.LinearRegression()
+from sklearn.linear_model import LinearRegression
+reg = LinearRegression()
 reg.fit(X_train_2d, y_train)
 model = reg
 
