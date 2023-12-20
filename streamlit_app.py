@@ -25,7 +25,7 @@ reg.fit(X_train_2d, y_train)
 model = reg
 
 # Assuming X_train_2d and Y_train are available from the training process
-linear_reg_model.fit(X_train_2d, Y_train)
+reg.fit(X_train_2d, Y_train)
 
 st.title('Linear Regression Prediction App')
 
