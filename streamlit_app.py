@@ -36,7 +36,7 @@ user_input = st.number_input('Enter a number:', value=0.0)
 user_input_2d = np.array(user_input).reshape(1, -1)
 
 # Make a prediction
-prediction_result = linear_reg_model.predict(user_input_2d)[0]
+prediction_result = reg.predict(user_input_2d)[0]
 
 # Display the prediction result
 st.write(f'Prediction Result: {prediction_result:.4f}')
